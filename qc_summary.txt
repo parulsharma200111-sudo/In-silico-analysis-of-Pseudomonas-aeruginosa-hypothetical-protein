@@ -1,0 +1,68 @@
+PROTEIN SEQUENCE QUALITY CONTROL REPORT
+
+SEQUENCE INFORMATION
+
+Sequence ID:          MGU0751352.1
+Description:          MGU0751352.1 hypothetical protein ACSEU8_23935 [Pseudomonas aeruginosa]
+Original Length:      601 characters
+Cleaned Length:       600 amino acids
+Validation Status:    FAILED - CLEANED
+Invalid Characters:   {'X'}
+Characters Removed:   1
+Cleaned Length:       600 amino acids
+
+NOTE: Analysis performed on cleaned sequence with invalid characters removed.
+
+PHYSIOCHEMICAL PROPERTIES
+
+Molecular Weight:     65919.69 Da
+                      (65.92 kDa)
+Isoelectric Point:    8.83
+Aromaticity:          0.1017
+Instability Index:    47.64
+GRAVY:                -0.0850
+
+SECONDARY STRUCTURE PREDICTION (Fraction)
+
+Helix:                0.3367 (33.67%)
+Turn:                 0.3067 (30.67%)
+Sheet:                0.3517 (35.17%)
+
+BIOLOGICAL INTERPRETATION
+
+Size Category:        Large protein
+Stability:            Unstable (instability index >= 40)
+Hydropathy:           Hydrophilic (negative GRAVY)
+Charge:               Basic protein (pI > 7)
+
+AMINO ACID COMPOSITION
+
+AA	Count	Percentage	
+L	88	14.67%
+A	81	13.50%
+R	56	9.33%
+G	51	8.67%
+P	51	8.50%
+D	43	7.17%
+F	29	4.83%
+V	28	4.67%
+S	25	4.33%
+T	22	3.67%
+Y	21	3.50%
+H	17	2.83%
+E	15	2.67%
+Q	15	2.50%
+I	12	2.00%
+N	12	2.00%
+W	11	1.83%
+M	10	1.67%
+K	7	1.17%
+C	3	0.50%
+
+SUMMARY STATISTICS
+
+Charged residues:     20.33% (D,E,K,R)
+Polar residues:       12.50% (S,T,N,Q)
+Hydrophobic residues: 43.17% (A,V,I,L,M,F,W)
+
+END OF REPORT
