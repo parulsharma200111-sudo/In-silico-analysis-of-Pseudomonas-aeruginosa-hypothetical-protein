@@ -3,14 +3,20 @@
 # What This Pipeline Does
 
 1.Quality Control: Validates your protein sequence
+
 2.Homology Search: Finds similar proteins using BLAST
+
 3.Generates Reports: Creates easy-to-read analysis summaries
+
    1. QC Summary (qc_summary.txt)
+      
       Sequence length and composition
+      
       Molecular weight
+      
       Isoelectric point (pI)
 
-  2. BLAST Results (blast_results.txt)
+  3. BLAST Results (blast_results.txt)
     * A hypothetical protein from *Pseudomonas aeruginosa* was subjected to homology based functional annotation to infer its probable biological role.
     * BLASTp analysis identified Dienelactone hydrolase as the top homologous hit, indicating potential enzymatic activity.
     * Conserved domain investigation using NCBI CD Search detected the COG4188 domain with significant statistical confidence.
