@@ -5,27 +5,18 @@
 1.Quality Control: Validates your protein sequence
 2.Homology Search: Finds similar proteins using BLAST
 3.Generates Reports: Creates easy-to-read analysis summaries
+   1. QC Summary (qc_summary.txt)
+      Sequence length and composition
+      Molecular weight
+      Isoelectric point (pI)
 
-#Quick Start Guide
-
-#Step 1: Prepare Your Input
-Create a FASTA file with your protein sequence in data/input_sequence.fasta
-Step 2: Run Quality Control (python sequence_qc.py)
-Step 3: Run Homology Analysis(python homology_analysis.py)
-
-#Understanding the Output
-1. QC Summary (qc_summary.txt)
-Sequence length and composition
-Molecular weight
-Isoelectric point (pI)
-
-2. BLAST Results (blast_results.txt)
-* A hypothetical protein from *Pseudomonas aeruginosa* was subjected to homology based functional annotation to infer its probable biological role.
-* BLASTp analysis identified Dienelactone hydrolase as the top homologous hit, indicating potential enzymatic activity.
-* Conserved domain investigation using NCBI CD Search detected the COG4188 domain with significant statistical confidence.
-* Structural classification placed the protein within the Alpha Beta hydrolase fold superfamily.
-* This fold is associated with hydrolytic enzymes involved in diverse metabolic processes.
-* Combined sequence similarity and domain conservation support functional assignment as a putative hydrolase pending experimental validation.
+  2. BLAST Results (blast_results.txt)
+    * A hypothetical protein from *Pseudomonas aeruginosa* was subjected to homology based functional annotation to infer its probable biological role.
+    * BLASTp analysis identified Dienelactone hydrolase as the top homologous hit, indicating potential enzymatic activity.
+    * Conserved domain investigation using NCBI CD Search detected the COG4188 domain with significant statistical confidence.
+    * Structural classification placed the protein within the Alpha Beta hydrolase fold superfamily.
+    * This fold is associated with hydrolytic enzymes involved in diverse metabolic processes.
+    * Combined sequence similarity and domain conservation support functional assignment as a putative hydrolase pending experimental validation.
 
 #Reference
 Biopython:
