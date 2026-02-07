@@ -17,12 +17,13 @@
       Isoelectric point (pI)
 
   3. BLAST Results (blast_results.txt)
-    * A hypothetical protein from *Pseudomonas aeruginosa* was subjected to homology based functional annotation to infer its probable biological role.
-    * BLASTp analysis identified Dienelactone hydrolase as the top homologous hit, indicating potential enzymatic activity.
-    * Conserved domain investigation using NCBI CD Search detected the COG4188 domain with significant statistical confidence.
-    * Structural classification placed the protein within the Alpha Beta hydrolase fold superfamily.
-    * This fold is associated with hydrolytic enzymes involved in diverse metabolic processes.
-    * Combined sequence similarity and domain conservation support functional assignment as a putative hydrolase pending experimental validation.
+     
+   * A hypothetical protein from *Pseudomonas aeruginosa* was subjected to homology based functional annotation to infer its probable biological role.
+   * BLASTp analysis identified Dienelactone hydrolase as the top homologous hit, indicating potential enzymatic activity.
+   * Conserved domain investigation using NCBI CD Search detected the COG4188 domain with significant statistical confidence.
+   * Structural classification placed the protein within the Alpha Beta hydrolase fold superfamily.
+   * This fold is associated with hydrolytic enzymes involved in diverse metabolic processes.
+   * Combined sequence similarity and domain conservation support functional assignment as a putative hydrolase pending experimental validation.
 
 #Reference
 Biopython:
